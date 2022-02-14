@@ -1,6 +1,11 @@
 import React, { ReactElement } from 'react';
 import {
-  AppBar, Button, Container, IconButton, Toolbar, Typography,
+  AppBar,
+  Button,
+  Container,
+  IconButton,
+  Toolbar,
+  Typography,
 } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
 
@@ -24,9 +29,7 @@ function App(): ReactElement {
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
-      <Container>
-        Hello
-      </Container>
+      <Container>Hello</Container>
     </div>
   );
 }
