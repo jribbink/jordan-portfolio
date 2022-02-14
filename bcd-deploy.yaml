@@ -1,0 +1,8 @@
+name: "Jordan's Portfolio"
+deployments:
+  frontend:
+    path: "frontend"
+    actions:
+      install: npm install
+      build: npm run build
+      serve: echo "test"
